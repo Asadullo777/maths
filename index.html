@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Math</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <!-- <link rel="icon"  type="image/png" href="icons/favicon/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/favicon/favicon-32x32.png"
+    /> -->
+    <link
+      type="image/x-icon"
+      href="icons/favicon/favicon-32x32.png"
+      rel="shortcut icon"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <!-- .lefr// -->
+      <div class="header__left-block">
+        <img src="icons/maths.png" alt="mbox" />
+      </div>
+      <!-- .center// -->
+      <ul class="header__links">
+        <li class="header__links__item">
+          <a href="#school" class="header__link">Главная</a>
+        </li>
+        <li class="header__links__item">
+          <a href="#primary" class="header__link">Преимущества</a>
+        </li>
+        <li class="header__links__item">
+          <a href="#lesson" class="header__link">О нас</a>
+        </li>
+      </ul>
+      <!-- ...rigth// -->
+      <div class="header__right-block">
+        <div class="header__block">
+          <a href="tel:+998909908545">+998909908545</a>
+        </div>
+      </div>
+      <div class="hamburger"><span></span> <span></span> <span></span></div>
+    </header>
+    <!-- ...// -->
+    <section class="math">
+      <div class="container">
+        <div class="math__welcome">
+          <h1 class="math__title">Magic Math</h1>
+          <div class="math__header">
+            Мы не учим математику мы<br />в нее играем
+          </div>
+          <div class="math__btns">
+            <button data-modal class="buttons">Записаться</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ....// -->
+    <section id="school" class="consultation">
+      <div class="container">
+        <h2 class="consultation__title">Пробный урок</h2>
+        <div class="consultation__descr">
+          Команда Magic Math сообщает вам о том, что<br />вы можете пройти
+          пробный урок, для того чтобы<br />увидеть весь процесс проведения<br />занятия.
+        </div>
+        <form
+          id="consultation-form"
+          action="telegram.php"
+          method="POST"
+          class="feed-form"
+          action="#"
+        >
+          <input name="name" required placeholder="Ваше имя" type="text" />
+          <input
+            name="number"
+            required
+            placeholder="Ваш телофон"
+            type="phone"
+          />
+          <input
+            name="email"
+            required
+            placeholder="Ваш E-mail"
+            type="email"
+          /><!-- <input type="submit" value="заказать кОНСУЛЬТАЦИЮ" /> -->
+          <button class="buttons">записаться</button>
+        </form>
+      </div>
+    </section>
+    <!-- ....// -->
+    <section id="primary" class="brain">
+      <div class="container">
+        <div class="brain__clon">
+          <!-- ....left/ -->
+          <div class="brain__left">
+            <h1 class="brain__title">
+              Почему именно наш курс?<br /><span>Все просто!</span>
+            </h1>
+            <div class="brain__block">
+              <div class="brain__descr">Гибкая система тестирования</div>
+              <div class="brain__descr">Записи уроков</div>
+              <div class="brain__descr">
+                Индивидуальный подход к каждому студенту
+              </div>
+              <div class="brain__descr">Библиотека материалов</div>
+              <div class="brain__descr">
+                Круглосуточная связь с преподавателем
+              </div>
+              <div class="brain__descr">Удобная онлайн оплата</div>
+              <div class="brain__descr">Журнал успеваемости</div>
+              <div class="brain__descr">Домашние задания</div>
+              <div class="brain__descr">Таблица посещаемости</div>
+            </div>
+            <button data-modal class="buttons btn">
+              Записаться на вебинар
+            </button>
+          </div>
+          <!-- ........right/ -->
+          <div class="brain__right">
+            <img src="img/brain.svg" alt="brain" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="video">
+      <div class="container">
+        <h1 class="video__title">Пробный урок</h1>
+        <!-- <iframe
+          src="https://www.youtube.com/embed/UDKBq_5i4g8"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe> -->
+        <iframe
+          src="https://www.youtube.com/embed/UDKBq_5i4g8"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+        <div class="video__descr">
+          Вы убедитесь, что это легко,<br />а главное очень удобно.<br /><span
+            >Ждём с нетерпением всех желающих!</span
+          >
+        </div>
+      </div>
+    </div>
+    <!-- ..../info/ -->
+    <section id="lesson" class="info">
+      <div class="container">
+        <h1 class="info__title">Информация о нас</h1>
+        <div class="info__block">
+          <div class="info__descr">
+            Мы собираем группы основываясь на тестовом задании,<br />которое
+            проходит каждый ученик в нашей онлайн школе.
+          </div>
+          <div class="info__descr">
+            Школьная программа по математике за один<br />год - это 3 месяца в
+            школе Magic Math.
+          </div>
+          <div class="info__descr">
+            Уроки состоят на 70% из<br />практики и на 30% из теории - это
+            связанно с тем, что знания точных наук совершенствуется практикой.
+          </div>
+          <div class="info__descr">
+            Позвоните на номер телефона, указанный в шапке профиля,<br />для
+            получения дополнительной информации.
+          </div>
+        </div>
+        <button data-modal class="buttons">Оставить заявку</button>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__block">
+          <!-- ..../left/ -->
+          <div class="footer__left">
+            <img
+              style="height: 100px; width: 100px"
+              src="icons/maths.png"
+              alt="m"
+            />
+          </div>
+          <!-- ....../right/ -->
+          <div class="footer__right">
+            <!-- .../info -->
+            <div class="footer__info">
+              <!-- ...// -->
+              <div class="footer__gmail">
+                <img src="icons/social/later.svg" alt="later" />
+                <a href="mailto:aidik9275@gmail.com">aidik9275@gmail.com</a>
+              </div>
+              <!-- ...// -->
+              <div class="footer__phone">
+                <img src="icons/social/phone.svg" alt="phone" />
+                <a href="tel:+998909908545">+998909908545</a>
+              </div>
+              <!-- / -->
+            </div>
+            <!-- .../social/ -->
+            <div class="footer__social">
+              <div class="footer__subtitle">Мы в соц сетях</div>
+              <!-- ..// -->
+              <div class="footer__social__1">
+                <a href=""
+                  ><img src="icons/social/facebook.svg" alt="facebook" /> </a
+                ><!-- ..// -->
+                <a href="https://t.me/magic_math_uz"
+                  ><img src="icons/social/message.svg" alt="message" /> </a
+                ><a href="https://www.instagram.com/magic_math.uz/"
+                  ><img
+                    style="background-color: white"
+                    src="icons/social/instagram.svg"
+                    alt="instagram"
+                  /> </a
+                ><a
+                  href="https://www.youtube.com/channel/UCVjDuVagYpEeD4veusjKFkg"
+                  ><img src="icons/social/youtube.svg" alt="youtube"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ...////ovelay -->
+    <div class="modal">
+      <div class="modal__dialog">
+        <div class="modal__content">
+          <form action="telegram.php" method="POST">
+            <div class="modal__close" data-close>&times;</div>
+            <div class="modal__title">
+              Мы свяжемся с вами как можно быстрее!
+            </div>
+            <input
+              required
+              placeholder="Ваше имя"
+              name="name"
+              type="text"
+              class="modal__input"
+            />
+            <input
+              required
+              placeholder="Ваш номер телефона"
+              name="phone"
+              type="phone"
+              class="modal__input"
+            />
+            <input
+              required
+              placeholder="Ваш email адресс"
+              name="email"
+              type="phone"
+              class="modal__input"
+            />
+            <button type="submit" data-modal class="btn btn_dark btn_min">
+              Перезвонить мне
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
