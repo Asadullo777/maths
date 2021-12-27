@@ -51,7 +51,7 @@
 
 @media (max-width:575px) {
     .math__welcome {
-        padding: 100px 10px 50px 30px
+        padding: 100px 20px 50px 40px
     }
 
     .math__title {
@@ -372,8 +372,9 @@ label.error {
 
 @media (max-width:575px) {
     .buttons {
-        width: 250px;
-        height: 60px
+        width: 220px;
+        height: 50px;
+        font-size: 20px
     }
 }
 
@@ -539,16 +540,16 @@ label.error {
     margin-top: 25px
 }
 
-@media (max-width:575px) {
-    .feed-form {
-        width: 240px
-    }
-}
-
 @media (max-width:767px) {
     .feed-form {
         margin: 0 auto;
         margin-top: 30px
+    }
+}
+
+@media (max-width:575px) {
+    .feed-form {
+        width: 220px
     }
 }
 
@@ -614,6 +615,10 @@ label.error {
 }
 
 @media (max-width:767px) {
+    .brain__right {
+        display: none
+    }
+
     .brain__title {
         font-size: 34px;
         line-height: 66px;
@@ -627,14 +632,14 @@ label.error {
 
 @media (max-width:575px) {
     .brain {
-        padding: 100px 30px 80px 20px
+        padding: 100px 30px 80px 40px;
+        text-align: center
     }
 
     .brain__block {
         padding: 2px;
         text-align: center;
-        background-color: #000;
-        width: 250px
+        background-color: #000
     }
 
     .brain__title {
@@ -743,7 +748,6 @@ label.error {
 }
 
 .info__block {
-    width: 500px;
     margin: 100px 0 50px 0
 }
 
@@ -756,9 +760,7 @@ label.error {
 
 @media (max-width:991px) {
     .info__title {
-        font-size: 45px;
-        text-align: left;
-        padding: 0 20px 0 50px
+        font-size: 45px
     }
 }
 
@@ -768,12 +770,7 @@ label.error {
     }
 
     .info__title {
-        font-size: 22px;
-        text-align: center
-    }
-
-    .info__block {
-        width: 250px
+        font-size: 25px
     }
 
     .info__descr {
